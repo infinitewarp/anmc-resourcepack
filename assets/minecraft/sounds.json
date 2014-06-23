@@ -1,0 +1,34 @@
+{
+    "trek.transporter-tos-mov": {
+        "category": "neutral",
+        "sounds": [
+            {
+                "name": "trek/transporter-tos-mov"
+            }
+        ]
+    },
+    "trek.transporter-tng": {
+        "category": "neutral",
+        "sounds": [
+            {
+                "name": "trek/transporter-tng"
+            }
+        ]
+    },
+    "trek.warp-core-collapse": {
+        "category": "neutral",
+        "sounds": [
+            {
+                "name": "trek/warp-core-collapse"
+            }
+        ]
+    },
+    "drwho.tardis": {
+        "category": "neutral",
+        "sounds": [
+            {
+                "name": "drwho/tardis"
+            }
+        ]
+    }
+}
