@@ -1,4 +1,12 @@
 {
+    "trek.torpedo”: {
+        "category": "neutral",
+        "sounds": [
+            {
+                "name": "trek/torpedo"
+            }
+        ]
+    },
     "trek.transporter-tos-mov": {
         "category": "neutral",
         "sounds": [
