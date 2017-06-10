@@ -1,7 +1,14 @@
 #!/bin/bash
+set -e
 
-VERSION=$(cat pack.mcmeta | grep -E -o 'v[0-9\.a-z]+' | sed -e 's/v//')
-find assets/ -name '.DS_Store' -exec rm -fv {} \;
+git clean -xi
+echo "Cleaning up file modes"
 find assets/ -type f -exec chmod -v 644 {} \;
-zip -r AppleNovaBradTextures."$VERSION".zip assets pack.mcmeta pack.png
-mv AppleNovaBradTextures."$VERSION".zip ../
+
+VERSION=$(jq .pack.description pack.mcmeta | sed -E 's/(.*v([0-9\.a-z]+).*)/\2/')
+FILENAME=AppleNovaBradTextures."${VERSION}".zip
+
+echo "Archiving files"
+zip -r "${FILENAME}" assets pack.mcmeta pack.png
+mv "${FILENAME}" ../
+echo "${FILENAME} created and moved to parent directory"
