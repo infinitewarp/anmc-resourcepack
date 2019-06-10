@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:golden_horse_armor"
+    ]
+  },
+  "criteria": {
+    "has_leather_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_horse_armor"
+          }
+        ]
+      }
+    },
+    "has_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    },
+    "has_golden_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_horse_armor"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:golden_horse_armor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_leather_horse_armor",
+      "has_gold_ingot",
+      "has_golden_horse_armor",
+      "has_the_recipe"
+    ]
+  ]
+}
