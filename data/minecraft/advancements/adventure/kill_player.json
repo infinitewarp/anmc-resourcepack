@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "frame": "challenge",
+    "title": "Murder Your Friends",
+    "description": "Become the monster they always thought you were",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:player"
+    ]
+  ]
+}
