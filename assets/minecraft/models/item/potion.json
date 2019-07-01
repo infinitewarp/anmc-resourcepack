@@ -1,0 +1,24 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+	"overrides": [
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom_foods/coffee_papercup"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom_foods/coffee_mug"},
+
+        {"predicate": {"custom_model_data": 20}, "model": "item/custom_foods/soda_coke"},
+        {"predicate": {"custom_model_data": 21}, "model": "item/custom_foods/soda_drpepper"},
+        {"predicate": {"custom_model_data": 22}, "model": "item/custom_foods/soda_gingerale"},
+        {"predicate": {"custom_model_data": 23}, "model": "item/custom_foods/soda_mtndew"},
+        {"predicate": {"custom_model_data": 24}, "model": "item/custom_foods/soda_pepsi"},
+        {"predicate": {"custom_model_data": 25}, "model": "item/custom_foods/soda_sprite"},
+
+        {"predicate": {"custom_model_data": 30}, "model": "item/custom_foods/soda_lacroix_berry"},
+        {"predicate": {"custom_model_data": 31}, "model": "item/custom_foods/soda_lacroix_lemon"},
+        {"predicate": {"custom_model_data": 32}, "model": "item/custom_foods/soda_lacroix_pamplemousse"},
+        {"predicate": {"custom_model_data": 33}, "model": "item/custom_foods/soda_lacroix_pure"},
+        {"predicate": {"custom_model_data": 34}, "model": "item/custom_foods/soda_lacroix_tangerine"}
+    ]
+}

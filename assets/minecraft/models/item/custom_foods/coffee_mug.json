@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/custom_foods/coffee_mug_overlay",
+		"layer1": "item/custom_foods/coffee_mug"
+	}
+}

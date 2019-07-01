@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/custom_foods/empty",
+		"layer1": "item/custom_foods/soda_lacroix_pure"
+	}
+}
