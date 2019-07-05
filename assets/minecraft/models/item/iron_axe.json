@@ -4,7 +4,8 @@
         "layer0": "item/iron_axe"
     },
 	"overrides": [
-		{ "predicate": { "custom_model_data": 1}, "model": "item/custom_tools/stormbreaker" },
-		{ "predicate": { "custom_model_data": 2}, "model": "item/custom_tools/cleaver" }
+		{"predicate": {"custom_model_data": 1}, "model": "item/custom_tools/stormbreaker"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/custom_tools/cleaver"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/custom_tools/machete"}
     ]
 }
