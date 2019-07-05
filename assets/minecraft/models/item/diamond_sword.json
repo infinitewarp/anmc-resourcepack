@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_sword"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "item/custom_tools/lightsaber_blue"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/custom_tools/lightsaber_green"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/custom_tools/lightsaber_red"}
+	]
+}
