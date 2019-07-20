@@ -1,0 +1,22 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/emerald"
+    },
+	"overrides": [
+        {"predicate": {"custom_model_data": 10}, "model": "item/custom_items/gem_amethyst"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/custom_items/gem_emerald"},
+        {"predicate": {"custom_model_data": 12}, "model": "item/custom_items/gem_ruby"},
+        {"predicate": {"custom_model_data": 13}, "model": "item/custom_items/gem_sapphire"},
+        {"predicate": {"custom_model_data": 14}, "model": "item/custom_items/gem_topaz"},
+        {"predicate": {"custom_model_data": 20}, "model": "item/custom_items/rupee_green"},
+        {"predicate": {"custom_model_data": 21}, "model": "item/custom_items/rupee_blue"},
+        {"predicate": {"custom_model_data": 22}, "model": "item/custom_items/rupee_red"},
+        {"predicate": {"custom_model_data": 23}, "model": "item/custom_items/rupee_silver"},
+        {"predicate": {"custom_model_data": 24}, "model": "item/custom_items/rupee_gold"},
+        {"predicate": {"custom_model_data": 30}, "model": "item/custom_items/triforce"},
+        {"predicate": {"custom_model_data": 31}, "model": "item/custom_items/oot_kokiriemerald"},
+        {"predicate": {"custom_model_data": 32}, "model": "item/custom_items/oot_goronruby"},
+        {"predicate": {"custom_model_data": 33}, "model": "item/custom_items/oot_zorasapphire"}
+    ]
+}
