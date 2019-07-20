@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:chainmail_chestplate"
+    ]
+  },
+  "criteria": {
+    "has_chainmail_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chainmail_chestplate"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:chainmail_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chainmail_chestplate",
+      "has_the_recipe"
+    ]
+  ]
+}

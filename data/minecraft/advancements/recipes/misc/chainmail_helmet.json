@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:chainmail_helmet"
+    ]
+  },
+  "criteria": {
+    "has_chainmail_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chainmail_helmet"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:chainmail_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chainmail_helmet",
+      "has_the_recipe"
+    ]
+  ]
+}

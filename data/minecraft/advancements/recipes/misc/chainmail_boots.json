@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:chainmail_boots"
+    ]
+  },
+  "criteria": {
+    "has_chainmail_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chainmail_boots"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:chainmail_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chainmail_boots",
+      "has_the_recipe"
+    ]
+  ]
+}
