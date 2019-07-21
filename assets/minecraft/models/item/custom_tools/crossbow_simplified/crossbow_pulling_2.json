@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "item/custom_tools/crossbow_simplified/crossbow_pulling_2"
+    }
+}
