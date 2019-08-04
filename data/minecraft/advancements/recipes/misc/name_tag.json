@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:nametag"
+      "minecraft:name_tag"
     ]
   },
   "criteria": {
@@ -16,12 +16,12 @@
         ]
       }
     },
-    "has_nametag": {
+    "has_name_tag": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:nametag"
+            "item": "minecraft:name_tag"
           }
         ]
       }
@@ -29,14 +29,14 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:nametag"
+        "recipe": "minecraft:name_tag"
       }
     }
   },
   "requirements": [
     [
       "has_paper",
-      "has_nametag",
+      "has_name_tag",
       "has_the_recipe"
     ]
   ]
