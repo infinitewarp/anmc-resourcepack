@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:tube_coral"
+  },
+  "result": "minecraft:dead_tube_coral",
+  "experience": 0.15,
+  "cookingtime": 200
+}

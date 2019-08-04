@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:bubble_coral"
+  },
+  "result": "minecraft:dead_bubble_coral",
+  "experience": 0.15,
+  "cookingtime": 200
+}

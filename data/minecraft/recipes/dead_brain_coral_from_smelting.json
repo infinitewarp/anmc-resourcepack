@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:brain_coral"
+  },
+  "result": "minecraft:dead_brain_coral",
+  "experience": 0.15,
+  "cookingtime": 200
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XDX",
+    "XBX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:kelp"
+    },
+    "D": {
+      "item": "minecraft:red_dye"
+    },
+    "B": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "minecraft:fire_coral"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:fire_coral"
+  },
+  "result": "minecraft:dead_fire_coral",
+  "experience": 0.15,
+  "cookingtime": 200
+}
