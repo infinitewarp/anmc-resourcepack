@@ -10,6 +10,7 @@
     "minecraft:dolphin",
     "minecraft:donkey",
     "minecraft:fox",
+    "minecraft:giant",
     "minecraft:horse",
     "minecraft:iron_golem",
     "minecraft:llama",
@@ -27,11 +28,14 @@
     "minecraft:skeleton_horse",
     "minecraft:snow_golem",
     "minecraft:squid",
+    "minecraft:strider",
     "minecraft:trader_llama",
     "minecraft:tropical_fish",
     "minecraft:turtle",
     "minecraft:villager",
     "minecraft:wandering_trader",
-    "minecraft:wolf"
+    "minecraft:wolf",
+    "minecraft:zombie_horse",
+    "minecraft:zombified_piglin"
   ]
 }
